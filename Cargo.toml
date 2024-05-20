@@ -1,0 +1,11 @@
+[package]
+name = "orz_os"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "orz_os"
+test = false
+bench = false
+
+[dependencies]
