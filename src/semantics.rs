@@ -9,7 +9,7 @@ use crate::kits::sbi;
 fn panic(info: &PanicInfo) -> ! {
     if let Some(location) = info.location() {
         println!(
-            "Panicked at {}:{} {}",
+            "[ORZ_OS_SEMANTICS] panicked at {}:{} {}",
             location.file(),
             location.line(),
             info.message().unwrap()
